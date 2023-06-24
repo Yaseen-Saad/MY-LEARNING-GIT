@@ -1,4 +1,4 @@
-## Important Lines
+## Important Commands
 
 - `ls` - this command is used to list the files and directories in the current directory
 - `touch + fileName` this command is used to create a file
@@ -25,3 +25,15 @@ Changes not staged for commit:
 
 - `git commit -am + message` this command is used as a mix for the `git commit -m ` and the `git add .` command
   i.e : `git commit -am 'HYPERX'`
+
+## Important Notes
+
+##### **conflicts looks like :**
+
+```js
+ <<<< HEAD
+ "your changes"
+ ====
+ "The repository changes"
+ >>>>> conflict id
+```

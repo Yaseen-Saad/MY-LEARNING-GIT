@@ -30,10 +30,28 @@ Changes not staged for commit:
 
 ##### **conflicts looks like :**
 
+
+```
+$ git pull
+
+> Auto-merging index.html
+  CONFLICT (content): Merge conflict in index.html
+  Automatic merge failed; fix conflicts and then commit the result.
+
+```
 ```js
  <<<< HEAD
  "your changes"
  ====
  "The repository changes"
  >>>>> conflict id
+```
+i.e :
+
+```
+<<<<<< HEAD
+    <h1 style="color:green">YASEEN</h1>
+======
+    <h1 style="color:red">YASEEN</h1>
+>>>>>> 1ac3239ab6740f07f1c241b2a236e18a2eda2545
 ```
